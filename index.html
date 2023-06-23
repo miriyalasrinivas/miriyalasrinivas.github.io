@@ -1,48 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Webpage with Sections</title>
-  <style>
-    body {
-      display: flex;
-    }
-    #sidebar {
-      width: 200px;
-      background-color: #f1f1f1;
-      padding: 20px;
-    }
-    #content {
-      flex-grow: 1;
-      padding: 20px;
-    }
-  </style>
+  <title>Get Ready to be Amazed - SrinivasMiriyala</title>
 </head>
-<body>
-  <div id="sidebar">
-    <ul>
-      <li><a href="#profile">Profile</a></li>
-      <li><a href="#unix">Unix</a></li>
-      <li><a href="#python">Python</a></li>
-    </ul>
-  </div>
-  <div id="content">
-    <section id="profile">
-      <h2>Profile</h2>
-      <p>Name: Srinivas Miriyala
-         Here are some details for the technically useful for all the developers/programmers. 
-      </p>
-    </section>
-    <section id="unix">
-      <h2>Unix</h2>
-      <p>Some Useful Commands:</p>
-      <p> grep for Tar files: tar -xzf filename.tar.gz --to-command='grep --label=$TAR_FILENAME -Hi "awk";true'</p>
-      <p> grep for Zip files: zipgrep select ./allgit/fadbbuildtasks/starterdb/lib/utplsql/utPlsql.zip         </p>
-
-    </section>
-    <section id="python">
-      <h2>Python</h2>
-      <p>This is the content for the Python section.</p>
-    </section>
-  </div>
-</body>
+<frameset cols="200,*">
+  <frame src="sidebar.html" name="sidebar" noresize>
+  <frame src="main.html" name="main" noresize>
+</frameset>
 </html>
