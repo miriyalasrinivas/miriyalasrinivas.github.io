@@ -1,10 +1,179 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>Get Ready to be Amazed - SrinivasMiriyala</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Srinivas Miriyala | Resume</title>
+  <meta name="description" content="Resume website for Srinivas Miriyala" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<frameset cols="200,*">
-  <frame src="sidebar.html" name="sidebar" noresize>
-  <frame src="main.html" name="main" noresize>
-</frameset>
+
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div>
+        <h1 class="name">Srinivas Miriyala</h1>
+        <p class="role">Your Title (e.g., Software Engineer / DevOps Engineer)</p>
+        <p class="summary">
+          Short 2–3 line summary about you: your experience, strengths, and what roles you’re seeking.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn" href="#contact">Contact</a>
+          <a class="btn btn-ghost" href="#projects">Projects</a>
+        </div>
+      </div>
+
+      <div class="card quick-info">
+        <h2 class="card-title">Quick Info</h2>
+        <ul class="list">
+          <li><strong>Location:</strong> City, Country</li>
+          <li><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+          <li><strong>Phone:</strong> +XX-XXXXXXXXXX</li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/miriyalasrinivas" target="_blank" rel="noreferrer">miriyalasrinivas</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer">your-profile</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+
+      <article class="card">
+        <div class="item-header">
+          <div>
+            <h3>Job Title — Company</h3>
+            <p class="muted">City • Full-time</p>
+          </div>
+          <div class="muted">MMM YYYY – Present</div>
+        </div>
+        <ul>
+          <li>Achievement/impact statement (use numbers when possible: %, $, time saved).</li>
+          <li>Tech used: Java, Spring Boot, OCI/AWS, Docker, Kubernetes, etc.</li>
+          <li>Another key responsibility/achievement.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="item-header">
+          <div>
+            <h3>Job Title — Company</h3>
+            <p class="muted">City • Full-time</p>
+          </div>
+          <div class="muted">MMM YYYY – MMM YYYY</div>
+        </div>
+        <ul>
+          <li>What you did and the outcome.</li>
+          <li>Key tools/tech and ownership areas.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Technical Skills</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Languages</h3>
+          <p class="muted">Java, Python, JavaScript, SQL (edit this)</p>
+        </div>
+        <div class="card">
+          <h3>Frameworks</h3>
+          <p class="muted">Spring Boot, React, Node.js (edit this)</p>
+        </div>
+        <div class="card">
+          <h3>Cloud / DevOps</h3>
+          <p class="muted">OCI/AWS/Azure, Docker, Kubernetes, Terraform, CI/CD (edit this)</p>
+        </div>
+        <div class="card">
+          <h3>Databases</h3>
+          <p class="muted">Oracle, MySQL, PostgreSQL, MongoDB (edit this)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <article class="card">
+        <div class="item-header">
+          <div>
+            <h3>Project Name</h3>
+            <p class="muted">Short one-line description</p>
+          </div>
+          <div class="links">
+            <a href="https://github.com/miriyalasrinivas/your-project" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://your-demo-link" target="_blank" rel="noreferrer">Live Demo</a>
+          </div>
+        </div>
+        <ul>
+          <li>What it does + your role.</li>
+          <li>Tech: …</li>
+          <li>Outcome/impact: …</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="item-header">
+          <div>
+            <h3>Project Name</h3>
+            <p class="muted">Short one-line description</p>
+          </div>
+          <div class="links">
+            <a href="https://github.com/miriyalasrinivas/your-project" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+        <ul>
+          <li>Key feature or achievement.</li>
+          <li>Tech: …</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="card">
+        <div class="item-header">
+          <div>
+            <h3>Degree — University/College</h3>
+            <p class="muted">Field of study</p>
+          </div>
+          <div class="muted">YYYY – YYYY</div>
+        </div>
+        <p class="muted">Optional: GPA, coursework, achievements.</p>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <h2>Certifications</h2>
+      <div class="card">
+        <ul>
+          <li>Certification Name — Issuer (Year)</li>
+          <li>Certification Name — Issuer (Year)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>
+          Email: <a href="mailto:your.email@example.com">your.email@example.com</a><br />
+          LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer">your-profile</a><br />
+          GitHub: <a href="https://github.com/miriyalasrinivas" target="_blank" rel="noreferrer">miriyalasrinivas</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span class="muted">© <span id="year"></span> Srinivas Miriyala</span>
+      <a class="muted" href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'}); return false;">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
